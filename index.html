@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tilak raj | Personal Portfolio</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Tilak Raj</h1>
+
+            <p class="title">Full Stack Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >tilakbatra2002@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+91 78143-60400</a
+                >
+              </div>
+            </li>
+
+           
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Kotkapura, Punjab</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Enthusiastic and detail-oriented Full Stack Developer with a
+              strong foundation in the MERN stack (MongoDB, Express.js,
+              React.js, Node.js) and hands-on experience in HTML5, CSS3, and
+              JavaScript (ES6+). Proficient in building responsive and dynamic
+              web applications, with a keen eye for designing user-friendly
+              interfaces and efficient back-end systems. Demonstrates the
+              ability to learn and apply new technologies swiftly through
+              academic projects and internships.
+            </p>
+            Committed to continuous improvement, effective problem-solving, and
+            contributing to collaborative agile environments. Ready to leverage
+            technical skills and creativity to deliver impactful solutions in a
+            professional setting.
+            <p></p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+           
+
+            <ul class="clients-list has-scrollbar">
+              
+
+              <li class="clients-item">
+               
+              </li>
+
+              <li class="clients-item">
+               
+              </li>
+
+              <li class="clients-item">
+               
+              </li>
+
+              <li class="clients-item">
+                
+              </li>
+
+              <li class="clients-item">
+                
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Chitkara University, Rajpura
+                </h4>
+
+                <span>2020 — 2024</span>
+
+                <p class="timeline-text">
+                  Successfully completed a Bachelor of Engineering in Computer
+                  Science Engineering with an exemplary overall CGPA of 9.45
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">High Schooling</h4>
+
+                <span>2020</span>
+                <p class="timeline-text">
+                  Completed 10+2 from West Point School with a specialization in
+                  the non-medical stream, achieving an impressive 86.6% of
+                  marks.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Secondary Education</h4>
+
+                <span>2018</span>
+                <p class="timeline-text">
+                  Successfully completed 10th grade at Fable Public School,
+                  securing 78.2% of marks. This educational milestone laid the
+                  groundwork for my academic and professional journey, equipping
+                  me with essential knowledge and skills across various
+                  subjects.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Certification</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Introduction To Web Development
+                </h4>
+
+                <span>2020, Coding Ninjas</span>
+
+                <p class="timeline-text">
+                  Completed a comprehensive course in web development from
+                  Coding Ninjas, focusing on the foundational aspects of HTML,
+                  CSS, and JavaScript. Gained practical experience in building
+                  responsive web pages, understanding the core principles of web
+                  design, and implementing dynamic features
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Object Oriented Programming in Java
+                </h4>
+
+                <span>2021, Coding Ninjas</span>
+
+                <p class="timeline-text">
+                  Completed a detailed course on Object Oriented Programming
+                  (OOP) in Java from Coding Ninjas. This certification covered
+                  the fundamental principles of OOP, including inheritance,
+                  polymorphism, encapsulation, and abstraction.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Introduction to Cyber Security
+                </h4>
+
+                <span>2022, Cisco</span>
+
+                <p class="timeline-text">
+                  Completed a comprehensive course on Introduction to Cyber
+                  Security from Cisco. This certification provided a solid
+                  foundation in key cybersecurity concepts, including threat
+                  identification, risk management, and security protocols.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <div class="skills-list content-card">
+              <h4>FrontEnd Skills:</h4>
+              <div class="main-frontend">
+                <div class="frontend1">
+                  <div class="frontend1-skills">
+                    <ul>
+                      <li>HTML</li>
+                    </ul>
+                  </div>
+                  <div class="frontend1-skills">
+                    <ul>
+                      <li>CSS</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend2">
+                  <div class="frontend2-skills">
+                    <ul>
+                      <li>JavaScript</li>
+                    </ul>
+                  </div>
+                  <div class="frontend2-skills">
+                    <ul>
+                      <li>ReactJs</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="frontend4">
+                  <div class="frontend4-skills">
+                    <ul>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+                  <div class="frontend4-skills">
+                    <ul>
+                      <li>Git/Github</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend5">
+                  <div class="frontend5-skills">
+                    <ul>
+                      <li>Tailwind Css</li>
+                    </ul>
+                  </div>
+                  <div class="frontend5-skills"></div>
+                </div>
+              </div>
+              <h4>Backend Skills:</h4>
+              <div class="main-frontend">
+                <div class="frontend1">
+                  <div class="frontend1-skills">
+                    <ul>
+                      <li>Node Js</li>
+                    </ul>
+                  </div>
+                  <div class="frontend1-skills">
+                    <ul>
+                      <li>Express Js</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend2">
+                  <div class="frontend2-skills">
+                    <ul>
+                      <li>MongoDb</li>
+                    </ul>
+                  </div>
+                  <div class="frontend2-skills">
+                    <ul>
+                      <li>ReactJs</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend3">
+                  <div class="frontend3-skills">
+                    <ul>
+                      <li>RESTful APIs</li>
+                    </ul>
+                  </div>
+                  <div class="frontend3-skills">
+                    <ul>
+                      <li>Authentication and Authorization</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <h4>Other Skills:</h4>
+              <div class="main-frontend">
+                <div class="frontend1">
+                  <div class="frontend1-skills">
+                    <ul>
+                      <li>Java</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend2">
+                  <div class="frontend2-skills">
+                    <ul>
+                      <li>OOPS</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="frontend3">
+                  <div class="frontend3-skills">
+                    <ul>
+                      <li>C++</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend4">
+                  <div class="frontend4-skills">
+                    <ul>
+                      <li>Data Structures</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <h4>Soft Skills:</h4>
+              <div class="main-frontend">
+                <div class="frontend1">
+                  <div class="frontend1-skills">
+                    <ul>
+                      <li>Problem-Solving</li>
+                    </ul>
+                  </div>
+                  <div class="frontend1-skills">
+                    <ul>
+                      <li>Adaptability</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend2">
+                  <div class="frontend2-skills">
+                    <ul>
+                      <li>Critical Thinking</li>
+                    </ul>
+                  </div>
+                  <div class="frontend2-skills">
+                    <ul>
+                      <li>Time Management</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="frontend3">
+                  <div class="frontend3-skills">
+                    <ul>
+                      <li>Communication</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="frontend4">
+                  <div class="frontend4-skills">
+                    <ul>
+                      <li>Leadership</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+        <div class="modal-container" data-modal-container>
+          <div class="modal" data-modal>
+            <button class="modal-close-btn" data-modal-close-btn>
+              &times;
+            </button>
+            <div class="modal-content">
+              <img src="" alt="" data-modal-img />
+              <h3 data-modal-title></h3>
+              <p data-modal-text></p>
+            </div>
+          </div>
+          <div class="overlay" data-overlay></div>
+        </div>
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Frontend Project</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Full Stack Project</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Frontend Project</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Full Stack Project</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Frontend Project"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/netflix.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Netflix Clone</h3>
+
+                  <p class="project-category">Frontend Project</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Frontend Project"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/youtube.jfif"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Clone</h3>
+
+                  <p class="project-category">FrontEnd Project</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Frontend Project"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/barber.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Barber Shop</h3>
+
+                  <p class="project-category">Frontend Project</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Frontend Project"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/grocery.jpg"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Grocery Store</h3>
+
+                  <p class="project-category">Frontend Project</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Frontend Project"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/winery.jpg"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Winery Shop</h3>
+
+                  <p class="project-category">Frontend Project</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Full Stack Project"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/blog.jpg"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Blog Application</h3>
+
+                  <p class="project-category">Full Stack Project</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Full Stack Project"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/doctor.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Doctor Appointment</h3>
+
+                  <p class="project-category">Full Stack Project</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+       
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+             <img src="./assets//images//kotkapura.png" alt="" class="map-img">
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
